@@ -1,0 +1,69 @@
+body {
+	background-color: grey;
+   	background-image: linear-gradient(black, #0066cc);
+	margin:0;
+
+}
+
+.img-responsive {
+	height: 50px;
+	width: 100px;
+	margin-left: 20px;
+}
+
+.navbar-collapse {
+	margin-left: 20px;
+}
+
+#navbar {
+	background-color: black;
+	margin: 0 auto;
+	max-width: 1600px;
+}
+
+#call-us {
+	background-color: grey;
+	font-family: Lucida Console;
+}
+
+#call-us-center {
+	height: 50px;
+	//background-color: orange;
+	
+}
+
+.phone-icon {
+	height:30px;
+	width:30px;
+}
+
+#cars-image-col {
+	padding: 0;
+}
+
+#cars-image{
+	background-image: url("images/cars.jpeg");
+	background-size: cover;
+}
+
+
+
+.phone-icon {
+	//background-color: blue;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+
+.content-column{
+	background-color: green;
+	height: 500px;
+}
+
+#content {
+	height: 600px;
+	margin-top: 30px;
+}
