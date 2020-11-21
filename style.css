@@ -2,7 +2,7 @@ body {
 	background-color: grey;
    	background-image: linear-gradient(black, #0066cc);
 	margin:0;
-
+	color:white;
 }
 
 .img-responsive {
@@ -15,55 +15,52 @@ body {
 	margin-left: 20px;
 }
 
+#navbar-container{
+	background-color: black;
+
+}
+
 #navbar {
 	background-color: black;
 	margin: 0 auto;
 	max-width: 1600px;
 }
 
-#call-us {
-	background-color: grey;
-	font-family: Lucida Console;
+#content{
+	background-color:black;
 }
 
-#call-us-center {
-	height: 50px;
-	//background-color: orange;
-	
-}
-
-.phone-icon {
-	height:30px;
-	width:30px;
-}
-
-#cars-image-col {
-	padding: 0;
-}
-
-#cars-image{
+#content-header{
+	padding:50px;
+	background-position: center center;
+	height:auto;
+	width:auto;
+	opacity: 0.6;
+	background-repeat: no-repeat;
+	background-color: black;
 	background-image: url("images/cars.jpeg");
-	background-size: cover;
+	background-size:cover;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#ready{
+	background-color:red;
+	text-transform: uppercase;
+	text-shadow: rgb(0,0,0) 4px 6px 17px;
+
+}
+
+.phone-numbers{
+	background-color:green;
+}
+.phone-icon{
+	background-color: blue;
 }
 
 
 
-.phone-icon {
-	//background-color: blue;
-	position: absolute;
-	margin: auto;
-	top: 0;
-	left:0;
-	right:0;
-	bottom:0;
-}
-
-.content-column{
-	background-color: green;
-	height: 500px;
-}
-
-#content {
-	height: 600px;
-	margin-top: 30px;
+@media (min-width: 760px) {
+	#content{
+		font-size:50px;
+	}
 }
