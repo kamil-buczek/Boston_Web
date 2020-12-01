@@ -64,7 +64,7 @@ body {
 	text-shadow: black 4px 6px 5px;
 }
 .phone-icon{
-
+	background-color:rgba(0,0,0,0.1);
 }
 
 .phone-image{
