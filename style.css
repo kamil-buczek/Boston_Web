@@ -45,26 +45,21 @@ body {
 	background-image: url("images/cars.jpeg");
 	background-size:cover;
 	font-family: Helvetica, Arial, sans-serif;
-	border-bottom-color: grey;
-	border-bottom-width: 5px;
-	border-bottom-style: ridge;
-
+	#border-bottom-color: grey;
+	#border-bottom-width: 5px;
+	#border-bottom-style: ridge;
 }
 
 #ready{
 	background-color:rgba(0,0,255,0.05);
-
 	text-transform: uppercase;
 	text-shadow: black 4px 6px 5px;
 
 }
 
 .phone-numbers{
-	//background-color:green;
+	#background-color:green;
 	text-shadow: black 4px 6px 5px;
-}
-.phone-icon{
-
 }
 
 .phone-image{
@@ -72,6 +67,25 @@ body {
 	max-height: 100%;
 }
 
+#content-center{
+	border-bottom-color: red;
+	border-bottom-width: 2px;
+	border-bottom-style: ridge;
+	border-top-color: red;
+	border-top-width: 2px;
+	border-top-style: ridge;
+	background-color: slategray;
+}
+
+#content-center .col-10{
+	padding:20px;
+	border-color: black;
+	border-width: 10px;
+	border-style: ridge;
+	background-color:midnightblue;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
 
 @media (min-width: 760px) {
 	#content{
