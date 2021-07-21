@@ -68,10 +68,7 @@ body {
 }
 
 #content-center{
-	border-bottom-color: red;
-	border-bottom-width: 2px;
-	border-bottom-style: ridge;
-	border-top-color: red;
+	border-top-color: black;
 	border-top-width: 2px;
 	border-top-style: ridge;
 	background-color: slategray;
@@ -85,6 +82,26 @@ body {
 	background-color:midnightblue;
 	margin-top:20px;
 	margin-bottom: 20px;
+}
+
+#content-slider {
+	height: 700px;
+	background-color: slategray;
+	text-align: center;
+}
+
+#content-slider-top {
+	height: 600px;
+	padding-top: 50px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	width: 24px;
+	height: 24px;
+}
+
+#content-slider-bottom {
+	height: 100px;
 }
 
 @media (min-width: 760px) {
